@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "*.clo": "doctex",
+        "*.toml": "toml",
+        "*.cpp": "cpp",
+        "*.ipp": "cpp"
+    }
+}

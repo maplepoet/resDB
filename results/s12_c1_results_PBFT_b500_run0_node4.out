@@ -1,0 +1,850 @@
+g_done_timer 60000000000
+g_thread_cnt 6
+g_zipf_theta 0.500000
+g_node_id 4
+g_client_rem_thread_cnt 1
+g_client_send_thread_cnt 1
+g_max_txn_per_part 4000
+g_load_per_server 1
+g_inflight_max 20000
+g_mpr 1.000000
+g_mpitem 0.010000
+g_part_per_txn 1
+g_req_per_query 1
+g_client_node_cnt 1
+g_rem_thread_cnt 2
+g_send_thread_cnt 1
+g_client_thread_cnt 2
+g_part_cnt 1
+g_node_cnt 12
+g_thread_cnt 6
+g_query_intvl 1
+g_prt_lat_distr 0
+g_part_alloc 0
+g_mem_pad 1
+g_perc_multi_part 1.000000
+g_tup_read_perc 0.500000
+g_tup_write_perc 0.500000
+g_txn_read_perc 0.500000
+g_txn_write_perc 0.500000
+g_synth_table_size 524288
+g_field_per_tuple 10
+g_data_perc 100.000000
+g_access_perc 0.030000
+g_strict_ppt 1
+g_network_delay 0
+g_total_thread_cnt 9
+g_total_client_thread_cnt 4
+g_total_node_cnt 13
+g_seq_batch_time_limit 5000000
+Random seed: 1934577336897
+Initializing stats... Done
+Initializing DB InMemory... 
+In-Memory DB configuration OK
+DB testing
+Insert key K1 with value V1
+Reading value for key K1 = V1
+Done
+Initializing transport manager... Total Node: 13 Tport Init 4: 26
+Reading ifconfig file: ./ifconfig.txt
+0: 10.128.0.35
+1: 10.128.0.36
+2: 10.128.0.37
+3: 10.128.0.38
+4: 10.128.0.39
+5: 10.128.0.40
+6: 10.128.0.41
+7: 10.128.0.42
+8: 10.128.0.43
+9: 10.128.0.44
+10: 10.128.0.45
+11: 10.128.0.46
+12: 10.128.0.34
+Port ID:  0, 0 -> 4 : 10052
+Sock Binding to tcp://10.128.0.39:10052 4
+Port ID:  0, 4 -> 0 : 10004
+Sock Connecting to tcp://10.128.0.39;10.128.0.35:10004 4 -> 0
+Port ID:  0, 1 -> 4 : 10053
+Sock Binding to tcp://10.128.0.39:10053 4
+Port ID:  0, 4 -> 1 : 10017
+Sock Connecting to tcp://10.128.0.39;10.128.0.36:10017 4 -> 1
+Port ID:  0, 2 -> 4 : 10054
+Sock Binding to tcp://10.128.0.39:10054 4
+Port ID:  0, 4 -> 2 : 10030
+Sock Connecting to tcp://10.128.0.39;10.128.0.37:10030 4 -> 2
+Port ID:  0, 3 -> 4 : 10055
+Sock Binding to tcp://10.128.0.39:10055 4
+Port ID:  0, 4 -> 3 : 10043
+Sock Connecting to tcp://10.128.0.39;10.128.0.38:10043 4 -> 3
+Port ID:  0, 5 -> 4 : 10057
+Sock Binding to tcp://10.128.0.39:10057 4
+Port ID:  0, 4 -> 5 : 10069
+Sock Connecting to tcp://10.128.0.39;10.128.0.40:10069 4 -> 5
+Port ID:  0, 6 -> 4 : 10058
+Sock Binding to tcp://10.128.0.39:10058 4
+Port ID:  0, 4 -> 6 : 10082
+Sock Connecting to tcp://10.128.0.39;10.128.0.41:10082 4 -> 6
+Port ID:  0, 7 -> 4 : 10059
+Sock Binding to tcp://10.128.0.39:10059 4
+Port ID:  0, 4 -> 7 : 10095
+Sock Connecting to tcp://10.128.0.39;10.128.0.42:10095 4 -> 7
+Port ID:  0, 8 -> 4 : 10060
+Sock Binding to tcp://10.128.0.39:10060 4
+Port ID:  0, 4 -> 8 : 10108
+Sock Connecting to tcp://10.128.0.39;10.128.0.43:10108 4 -> 8
+Port ID:  0, 9 -> 4 : 10061
+Sock Binding to tcp://10.128.0.39:10061 4
+Port ID:  0, 4 -> 9 : 10121
+Sock Connecting to tcp://10.128.0.39;10.128.0.44:10121 4 -> 9
+Port ID:  0, 10 -> 4 : 10062
+Sock Binding to tcp://10.128.0.39:10062 4
+Port ID:  0, 4 -> 10 : 10134
+Sock Connecting to tcp://10.128.0.39;10.128.0.45:10134 4 -> 10
+Port ID:  0, 11 -> 4 : 10063
+Sock Binding to tcp://10.128.0.39:10063 4
+Port ID:  0, 4 -> 11 : 10147
+Sock Connecting to tcp://10.128.0.39;10.128.0.46:10147 4 -> 11
+Port ID:  0, 12 -> 4 : 10064
+Sock Binding to tcp://10.128.0.39:10064 4
+Port ID:  0, 4 -> 12 : 10160
+Sock Connecting to tcp://10.128.0.39;10.128.0.34:10160 4 -> 12
+Done
+Initializing simulation... Done
+Workload initialized!
+Initializing work queue... Done
+Initializing message queue... Done
+Initializing transaction manager pool... Done
+Initializing transaction pool... Done
+Initializing txn node table pool... Done
+Initializing query pool... Done
+Initializing transaction table... Done
+Initializing Chain... Done
+___________________________________ED25519GenerateKeys
+_____________ED25519 PUBLIC KEY: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C
+___________________________________CMACGenerateKeys
+Node 4_____________CMAC PRIV KEY: D3450E56B13C44DB31CDE8D79ED81A4F
+Node 4_____________CMAC PRIV KEY: CA9DA3F2C94A365D223D46E67F72030D
+Node 4_____________CMAC PRIV KEY: D3B50561678B5E1D854450677DCE8CA0
+Node 4_____________CMAC PRIV KEY: EB9DA43AD37D2767F1E053C438974946
+Node 4Node 4_____________CMAC PRIV KEY: DFBF9412AB958D8F9340E658E73F208B
+Node 4_____________CMAC PRIV KEY: FE41C32E39AB3ED03C4DAD5277AE3E1E
+Node 4_____________CMAC PRIV KEY: 000DC83954907B9224D1BDBA7C9B1ED8
+Node 4_____________CMAC PRIV KEY: C7B65D060FAB142DC634F69DA0D1D22A
+Node 4_____________CMAC PRIV KEY: 517AE60407DB5F3C7443DBD4139EDD85
+Node 4_____________CMAC PRIV KEY: F237A44B46E0D489163C54915B32B9DC
+Node 4_____________CMAC PRIV KEY: DD2DF4BF7B8699A81939FC685A38ED55
+Node 4_____________CMAC PRIV KEY: 14354517CFA47E2F24D0357B4F08DFFE
+Initialization Time = 35527377
+Setup 4:0
+Setup 4:1
+Setup 4:2
+Setup 4:3
+Setup 4:4
+Setup 4:6
+Setup 4:5
+Setup 4:7
+Setup 4:8
+Running 4:1
+Running 4:2
+Running 4:3
+Running 4:5
+Running 4:4
+Send INIT_DONE to 0
+Send INIT_DONE to 1
+Send INIT_DONE to 2
+Send INIT_DONE to 3
+Send INIT_DONE to 5
+Send INIT_DONE to 6
+Send INIT_DONE to 7
+Send INIT_DONE to 8
+Send INIT_DONE to 9
+Send INIT_DONE to 10
+Send INIT_DONE to 11
+Send INIT_DONE to 12
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 0
+Sending CMAC D3450E56B13C44DB31CDE8D79ED81A4F to 0
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 1
+Sending CMAC CA9DA3F2C94A365D223D46E67F72030D to 1
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 2
+Sending CMAC D3B50561678B5E1D854450677DCE8CA0 to 2
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 3
+Sending CMAC EB9DA43AD37D2767F1E053C438974946 to 3
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 5
+Sending CMAC DFBF9412AB958D8F9340E658E73F208B to 5
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 6
+Sending CMAC FE41C32E39AB3ED03C4DAD5277AE3E1E to 6
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 7
+Sending CMAC 000DC83954907B9224D1BDBA7C9B1ED8 to 7
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 8
+Sending CMAC C7B65D060FAB142DC634F69DA0D1D22A to 8
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 9
+Sending CMAC 517AE60407DB5F3C7443DBD4139EDD85 to 9
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 10
+Sending CMAC F237A44B46E0D489163C54915B32B9DC to 10
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 11
+Sending CMAC DD2DF4BF7B8699A81939FC685A38ED55 to 11
+Sending ED25519: øPh*ó£~√tÈÖLN∏E˘1lúìÁ∂ˆ4†q¸C to 12
+Sending CMAC 14354517CFA47E2F24D0357B4F08DFFE to 12
+Running 4:0
+Received INIT_DONE from node 7
+Received INIT_DONE from node 2
+Received INIT_DONE from node 3
+Received INIT_DONE from node 5
+Received INIT_DONE from node 12
+Received INIT_DONE from node 8
+Received INIT_DONE from node 9
+Received INIT_DONE from node 1
+Received INIT_DONE from node 0
+Received INIT_DONE from node 10
+Received INIT_DONE from node 6
+Received INIT_DONE from node 11
+Running 4:7
+Running 4:8
+Running 4:6
+Starttime set to 1935662123637
+Running InputThread 6
+Running InputThread 7
+Running WorkerThread 4
+Running WorkerThread 2
+Running OutputThread 8
+Running WorkerThread 0
+Algo: ED2- :: 2
+Storing the key: ãM –ÆïO~r⁄,«A´>‚º˝ãö>˛ãp ::size: 32
+Running WorkerThread 5
+Running WorkerThread 1
+Algo: CMA- :: 2
+Storing the key: 141CA19E1AAE6741BAED757D4D64F5DF ::size: 32
+Algo: ED2- :: 8
+Storing the key: H≈°Æx\CoúS)´r
+Gîﬂw¿D© ¶µØûÙô6z ::size: 32
+Algo: CMA- :: 8
+Storing the key: 2933E42EE1D6FA2B68A7BA3264CE6713 ::size: 32
+Algo: ED2- :: 7
+Storing the key: d*’1Ó.Î4izwB®Ì†Q?¨gˇ|rÄﬂ—Ì·æ ::size: 32
+Algo: CMA- :: 7
+Storing the key: 45DBBE4BC6B7F02340AC529F64C10FA0 ::size: 32
+Algo: ED2- :: 5
+Storing the key: NÂ„Ÿﬁ¯mG	jUÕ)zåèìø‹IrsQÌa“±H∑è ::size: 32
+Algo: CMA- :: 5
+Storing the key: 6A48D322647D8237FC03B3423E19A488 ::size: 32
+Algo: ED2- :: 3
+Storing the key: ∂®(ŸÉ
+-4MÈG'!Ç/ı∞|æIrCulÙ·˜∏π ::size: 32
+Algo: CMA- :: 3
+Storing the key: 56AD85E2E3D9DA20A69C907CC628D198 ::size: 32
+Algo: ED2- :: 9
+Storing the key: z4é4¶äzúúò¸2xq]ÜÉòåpö'£Wátôh}⁄Ô ::size: 32
+Algo: CMA- :: 9
+Storing the key: ED03C807D014F4D50947693FE7E2D9F6 ::size: 32
+Algo: ED2- :: 1
+Storing the key: c#8¢íWC‹⁄¡%ëÛxõS´ºõÀ<r$Yo~ ::size: 32
+Algo: CMA- :: 1
+Storing the key: 9E879B1FDE743039B1E3A1CF8EB226F2 ::size: 32
+Algo: ED2- :: 0
+Storing the key: Xÿ˜‡Z⁄¶≈=yò Ó>YT∆[t∑«·QÍe/Lì ::size: 32
+Algo: CMA- :: 0
+Storing the key: 16C8B302C554391DF7036E4960E1F91B ::size: 32
+Algo: ED2- :: 10
+Storing the key: ·¯Hë¬,ó≥YÂZÎ7$»EÒ» {‘KˇíÒ˙πqê ::size: 32
+Algo: CMA- :: 10
+Storing the key: 8692C2BAA299BC9CC24BCAFC4628CE6F ::size: 32
+Algo: ED2- :: 6
+Storing the key: ∞ﬂ®dÖµNXèÄÿÓàô”$£Eé±÷«u¯i†  ::size: 32
+Algo: CMA- :: 6
+Storing the key: 255BB3B2C730303832C6749AC94A0FF4 ::size: 32
+Running WorkerThread 3
+Algo: ED2- :: 11
+Storing the key: ä9Ì:æËﬂÏÛ≠“âèﬂ§:„€ÌµÎtLÓdìQv ::size: 32
+Algo: CMA- :: 11
+Storing the key: E65C63F37F44BB4B6A84461732CE31E1 ::size: 32
+Algo: ED2- :: 12
+Storing the key: cÉ™ñP’õÁi`+∫F˘ñn4ó¬g‘Öœü ::size: 32
+Algo: CMA- :: 12
+Storing the key: C36AF3D3AC8DDE5AC42CFE8C42EEFA12 ::size: 32
+Send READY to client.executed. 499 
+executed. 999 
+executed. 1499 
+executed. 1999 
+executed. 2499 
+executed. 2999 
+executed. 3499 
+executed. 3999 
+executed. 4499 
+executed. 4999 
+executed. 5499 
+executed. 5999 
+executed. 6499 
+executed. 6999 
+executed. 7499 
+executed. 7999 
+executed. 8499 
+executed. 8999 
+executed. 9499 
+executed. 9999 
+executed. 10499 
+executed. 10999 
+executed. 11499 
+executed. 11999 
+executed. 12499 
+executed. 12999 
+executed. 13499 
+executed. 13999 
+executed. 14499 
+executed. 14999 
+executed. 15499 
+executed. 15999 
+executed. 16499 
+executed. 16999 
+executed. 17499 
+executed. 17999 
+executed. 18499 
+executed. 18999 
+executed. 19499 
+executed. 19999 
+executed. 20499 
+executed. 20999 
+executed. 21499 
+executed. 21999 
+executed. 22499 
+executed. 22999 
+executed. 23499 
+executed. 23999 
+executed. 24499 
+executed. 24999 
+executed. 25499 
+executed. 25999 
+executed. 26499 
+executed. 26999 
+executed. 27499 
+executed. 27999 
+executed. 28499 
+executed. 28999 
+executed. 29499 
+executed. 29999 
+executed. 30499 
+executed. 30999 
+executed. 31499 
+executed. 31999 
+executed. 32499 
+executed. 32999 
+executed. 33499 
+executed. 33999 
+executed. 34499 
+executed. 34999 
+executed. 35499 
+executed. 35999 
+executed. 36499 
+executed. 36999 
+executed. 37499 
+executed. 37999 
+executed. 38499 
+executed. 38999 
+executed. 39499 
+executed. 39999 
+executed. 40499 
+executed. 40999 
+executed. 41499 
+executed. 41999 
+executed. 42499 
+executed. 42999 
+executed. 43499 
+executed. 43999 
+executed. 44499 
+executed. 44999 
+executed. 45499 
+executed. 45999 
+executed. 46499 
+executed. 46999 
+executed. 47499 
+executed. 47999 
+executed. 48499 
+executed. 48999 
+executed. 49499 
+executed. 49999 
+executed. 50499 
+executed. 50999 
+executed. 51499 
+executed. 51999 
+executed. 52499 
+executed. 52999 
+executed. 53499 
+executed. 53999 
+executed. 54499 
+executed. 54999 
+executed. 55499 
+executed. 55999 
+executed. 56499 
+executed. 56999 
+executed. 57499 
+executed. 57999 
+executed. 58499 
+executed. 58999 
+executed. 59499 
+executed. 59999 
+executed. 60499 
+executed. 60999 
+executed. 61499 
+executed. 61999 
+executed. 62499 
+executed. 62999 
+executed. 63499 
+executed. 63999 
+executed. 64499 
+executed. 64999 
+executed. 65499 
+executed. 65999 
+executed. 66499 
+executed. 66999 
+executed. 67499 
+executed. 67999 
+executed. 68499 
+executed. 68999 
+executed. 69499 
+executed. 69999 
+executed. 70499 
+executed. 70999 
+executed. 71499 
+executed. 71999 
+executed. 72499 
+executed. 72999 
+executed. 73499 
+executed. 73999 
+executed. 74499 
+executed. 74999 
+executed. 75499 
+executed. 75999 
+executed. 76499 
+executed. 76999 
+executed. 77499 
+executed. 77999 
+executed. 78499 
+executed. 78999 
+executed. 79499 
+executed. 79999 
+executed. 80499 
+executed. 80999 
+executed. 81499 
+executed. 81999 
+executed. 82499 
+executed. 82999 
+executed. 83499 
+executed. 83999 
+executed. 84499 
+executed. 84999 
+executed. 85499 
+executed. 85999 
+executed. 86499 
+executed. 86999 
+executed. 87499 
+executed. 87999 
+executed. 88499 
+executed. 88999 
+executed. 89499 
+executed. 89999 
+executed. 90499 
+executed. 90999 
+executed. 91499 
+executed. 91999 
+executed. 92499 
+executed. 92999 
+executed. 93499 
+executed. 93999 
+executed. 94499 
+executed. 94999 
+executed. 95499 
+executed. 95999 
+executed. 96499 
+executed. 96999 
+executed. 97499 
+executed. 97999 
+executed. 98499 
+executed. 98999 
+executed. 99499 
+executed. 99999 
+executed. 100499 
+executed. 100999 
+executed. 101499 
+executed. 101999 
+executed. 102499 
+executed. 102999 
+executed. 103499 
+executed. 103999 
+executed. 104499 
+executed. 104999 
+executed. 105499 
+executed. 105999 
+executed. 106499 
+executed. 106999 
+executed. 107499 
+executed. 107999 
+executed. 108499 
+executed. 108999 
+executed. 109499 
+executed. 109999 
+executed. 110499 
+executed. 110999 
+executed. 111499 
+executed. 111999 
+executed. 112499 
+executed. 112999 
+executed. 113499 
+executed. 113999 
+executed. 114499 
+executed. 114999 
+executed. 115499 
+executed. 115999 
+executed. 116499 
+executed. 116999 
+executed. 117499 
+executed. 117999 
+executed. 118499 
+executed. 118999 
+executed. 119499 
+executed. 119999 
+executed. 120499 
+executed. 120999 
+executed. 121499 
+executed. 121999 
+executed. 122499 
+executed. 122999 
+executed. 123499 
+executed. 123999 
+executed. 124499 
+executed. 124999 
+executed. 125499 
+executed. 125999 
+executed. 126499 
+executed. 126999 
+executed. 127499 
+executed. 127999 
+executed. 128499 
+executed. 128999 
+executed. 129499 
+executed. 129999 
+executed. 130499 
+executed. 130999 
+executed. 131499 
+executed. 131999 
+executed. 132499 
+executed. 132999 
+executed. 133499 
+executed. 133999 
+executed. 134499 
+executed. 134999 
+executed. 135499 
+executed. 135999 
+executed. 136499 
+executed. 136999 
+executed. 137499 
+executed. 137999 
+executed. 138499 
+executed. 138999 
+executed. 139499 
+executed. 139999 
+executed. 140499 
+executed. 140999 
+executed. 141499 
+executed. 141999 
+executed. 142499 
+executed. 142999 
+executed. 143499 
+executed. 143999 
+executed. 144499 
+executed. 144999 
+executed. 145499 
+executed. 145999 
+executed. 146499 
+executed. 146999 
+executed. 147499 
+executed. 147999 
+executed. 148499 
+executed. 148999 
+executed. 149499 
+executed. 149999 
+executed. 150499 
+executed. 150999 
+executed. 151499 
+executed. 151999 
+executed. 152499 
+executed. 152999 
+executed. 153499 
+executed. 153999 
+executed. 154499 
+executed. 154999 
+executed. 155499 
+executed. 155999 
+executed. 156499 
+executed. 156999 
+executed. 157499 
+executed. 157999 
+executed. 158499 
+executed. 158999 
+executed. 159499 
+executed. 159999 
+executed. 160499 
+executed. 160999 
+executed. 161499 
+executed. 161999 
+executed. 162499 
+executed. 162999 
+executed. 163499 
+executed. 163999 
+executed. 164499 
+executed. 164999 
+executed. 165499 
+executed. 165999 
+executed. 166499 
+executed. 166999 
+executed. 167499 
+executed. 167999 
+executed. 168499 
+executed. 168999 
+executed. 169499 
+executed. 169999 
+executed. 170499 
+executed. 170999 
+executed. 171499 
+executed. 171999 
+executed. 172499 
+executed. 172999 
+executed. 173499 
+executed. 173999 
+executed. 174499 
+executed. 174999 
+executed. 175499 
+executed. 175999 
+executed. 176499 
+executed. 176999 
+executed. 177499 
+executed. 177999 
+executed. 178499 
+executed. 178999 
+executed. 179499 
+executed. 179999 
+executed. 180499 
+executed. 180999 
+executed. 181499 
+executed. 181999 
+executed. 182499 
+executed. 182999 
+executed. 183499 
+executed. 183999 
+executed. 184499 
+executed. 184999 
+executed. 185499 
+executed. 185999 
+executed. 186499 
+executed. 186999 
+executed. 187499 
+executed. 187999 
+executed. 188499 
+executed. 188999 
+executed. 189499 
+executed. 189999 
+executed. 190499 
+executed. 190999 
+executed. 191499 
+executed. 191999 
+executed. 192499 
+executed. 192999 
+executed. 193499 
+executed. 193999 
+executed. 194499 
+[prog] 
+total_runtime=0.000041
+--------------------------------
+interval_tput=0.000000	txn_cnt=0
+--------------------------------
+tput         =0.000000	txn_cnt=0
+=======================================================
+
+executed. 194999 
+executed. 195499 
+executed. 195999 
+executed. 196499 
+executed. 196999 
+executed. 197499 
+executed. 197999 
+executed. 198499 
+executed. 198999 
+executed. 199499 
+executed. 199999 
+executed. 200499 
+executed. 200999 
+executed. 201499 
+executed. 201999 
+executed. 202499 
+executed. 202999 
+executed. 203499 
+executed. 203999 
+executed. 204499 
+executed. 204999 
+executed. 205499 
+executed. 205999 
+executed. 206499 
+executed. 206999 
+executed. 207499 
+executed. 207999 
+executed. 208499 
+executed. 208999 
+executed. 209499 
+executed. 209999 
+executed. 210499 
+executed. 210999 
+executed. 211499 
+executed. 211999 
+executed. 212499 
+executed. 212999 
+executed. 213499 
+executed. 213999 
+[prog] 
+total_runtime=5.000041
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =3899.967899	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=10.000041
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =1949.991941	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=15.000041
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =1299.996407	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=20.000041
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =974.997978	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=25.000042
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =779.998702	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=30.000049
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =649.998932	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=35.000049
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =557.142070	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=40.000050
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =487.499396	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=45.000050
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =433.332856	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=50.000050
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =389.999610	txn_cnt=19500
+=======================================================
+
+[prog] 
+total_runtime=55.000050
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =354.545132	txn_cnt=19500
+=======================================================
+
+FINISH: 0
+FINISH: 0
+FINISH: 0
+FINISH: 0
+FINISH: 0
+FINISH: 0
+PASS! SimTime = 66.049553
+Output 8: 6.704100
+Input 6: 0.000000
+Input 7: 5.651386
+[summary] filename: ./monitor/toInflux_R5_.out
+total_runtime=60.000001
+
+tput=324.999994
+txn_cnt=19500
+,work_queue_wait_time=16.261146
+,work_queue_cnt=1095
+,work_queue_enq_cnt=1096
+,work_queue_wait_avg_time=0.014850
+,work_queue_enqueue_time=0.000849
+,work_queue_dequeue_time=0.000998
+,worker_idle_time=1.109068
+,worker_release_msg_time=0.010250
+idle_time_worker 0=0.490759
+idle_time_worker 1=0.000000
+idle_time_worker 2=0.000000
+idle_time_worker 3=0.000000
+idle_time_worker 4=0.618309
+idle_time_worker 5=0.000000
+msg_send_time=0.009287
+msg_send_time_avg=0.000206
+msg_recv_time=0.002832
+msg_recv_time_avg=0.000064
+msg_recv_idle_time=117.615635
+msg_send_cnt=45
+msg_recv_cnt=44
+txn_table_new_cnt=28000
+txn_table_get_cnt=48524
+txn_table_release_cnt=0
+txn_table_cflt_cnt=0
+txn_table_cflt_size=0
+txn_table_get_time=0.105920
+txn_table_release_time=0.000000
+txn_table_min_ts_time=0.000000
+txn_table_get_avg_time=0.000002
+txn_table_release_avg_time=0.000000
+virt_mem_usage=2351160
+phys_mem_usage=282652
+,cpu_ttl=0.000323
+msg_size_client_batch=0
+msg_size_batch_req=26192
+msg_size_commit=220
+msg_size_prepare=216
+msg_size_checkpoint=0
+msg_size_client_response=0
+total_runtime=60.000001
+--------------------------------
+interval_tput=3900.000000	txn_cnt=19500
+--------------------------------
+tput         =324.999994	txn_cnt=19500
+=======================================================
+
+
